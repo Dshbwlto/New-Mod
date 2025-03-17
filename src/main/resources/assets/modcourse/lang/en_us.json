@@ -1,4 +1,7 @@
 {
   "item.modcourse.black_opal": "Black Opal",
-  "item.modcourse.raw_black_opal": "Raw Black Opal"
+  "item.modcourse.raw_black_opal": "Raw Black Opal",
+
+  "itemGroup.modcourse.black_opal_items_tab": "Black Opal Items",
+  "itemGroup.modcourse.black_opal_blocks_tab": "Black Opal Blocks"
 }
