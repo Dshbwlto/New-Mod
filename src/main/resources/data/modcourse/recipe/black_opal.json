@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "modcourse:black_opal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "modcourse:black_opal"
+  }
+}
