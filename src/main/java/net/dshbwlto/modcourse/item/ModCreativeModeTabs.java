@@ -1,6 +1,7 @@
 package net.dshbwlto.modcourse.item;
 
 import net.dshbwlto.modcourse.ModCourse;
+import net.dshbwlto.modcourse.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -28,11 +29,15 @@ public class ModCreativeModeTabs {
     public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =
             CREATIVE_MODE_TABS.register("black_opal_blocks_tab", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.modcourse.black_opal_blocks_tab"))
-                    .icon(() -> new ItemStack(ModItems.RAW_BLACK_OPAL.get()))
+                    .icon(() -> new ItemStack(ModBlocks.BLACK_OPAL_BLOCK.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ModCourse.MOD_ID, "black_opal_items_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(Blocks.ANDESITE);
-                        output.accept(Blocks.DEEPSLATE_DIAMOND_ORE);
+                        output.accept(ModBlocks.BLACK_OPAL_BLOCK);
+                        output.accept(ModBlocks.RAW_BLACK_OPAL_BLOCK);
+                        output.accept(ModBlocks.BLACK_OPAL_ORE);
+                        output.accept(ModBlocks.BLACK_OPAL_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.BLACK_OPAL_NETHERRACK_ORE);
+                        output.accept(ModBlocks.BLACK_OPAL_END_STONE_ORE);
                     }).build());
 
 

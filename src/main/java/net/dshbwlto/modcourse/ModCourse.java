@@ -1,5 +1,6 @@
 package net.dshbwlto.modcourse;
 
+import net.dshbwlto.modcourse.block.ModBlocks;
 import net.dshbwlto.modcourse.item.ModCreativeModeTabs;
 import net.dshbwlto.modcourse.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -37,11 +38,10 @@ public class ModCourse {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
 
 
         // Register ourselves for server and other game events we are interested in.
