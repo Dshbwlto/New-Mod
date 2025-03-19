@@ -1,6 +1,7 @@
 package net.dshbwlto.modcourse.block;
 
 import net.dshbwlto.modcourse.ModCourse;
+import net.dshbwlto.modcourse.block.custom.MagicBlock;
 import net.dshbwlto.modcourse.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -31,13 +32,15 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(2,5),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
 
-    public static final DeferredBlock<Block> BLACK_OPAL_NETHERRACK_ORE = registerBlock("black_opal_netherrack_ore",
+    public static final DeferredBlock<Block> BLACK_OPAL_NETHER_ORE = registerBlock("black_opal_nether_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2,5),
+                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> BLACK_OPAL_END_ORE = registerBlock("black_opal_end_ore",
             () -> new DropExperienceBlock(UniformInt.of(2,5),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
 
-    public static final DeferredBlock<Block> BLACK_OPAL_END_STONE_ORE = registerBlock("black_opal_end_stone_ore",
-            () -> new DropExperienceBlock(UniformInt.of(2,5),
-                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
 
 
 
