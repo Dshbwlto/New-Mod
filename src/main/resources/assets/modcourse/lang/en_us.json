@@ -16,6 +16,10 @@
   "block.modcourse.black_opal_end_ore": "End Stone Black Opal Ore",
 
   "block.modcourse.magic_block": "§eMagic Block§r",
+
+  "block.modcourse.black_opal_stairs": "Black Opal Stairs",
+  "block.modcourse.black_opal_slab": "Black Opal Slab",
+
   "tooltip.modcourse.tomato.1": "If you eat these raw you're weird, just sayin.",
 
   "tooltip.modcourse.chainsaw.tooltip.shift": "Press §7[SHIFT]§r for more information!",

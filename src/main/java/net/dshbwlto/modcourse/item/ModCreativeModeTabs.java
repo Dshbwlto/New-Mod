@@ -40,6 +40,9 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ModCourse.MOD_ID, "black_opal_items_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.BLACK_OPAL_BLOCK);
+                        output.accept(ModBlocks.BLACK_OPAL_STAIRS);
+                        output.accept(ModBlocks.BLACK_OPAL_SLAB);
+
                         output.accept(ModBlocks.RAW_BLACK_OPAL_BLOCK);
 
                         output.accept(ModBlocks.BLACK_OPAL_ORE);
@@ -48,6 +51,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BLACK_OPAL_END_ORE);
 
                         output.accept(ModBlocks.MAGIC_BLOCK);
+
 
                     }).build());
 
