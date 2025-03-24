@@ -25,9 +25,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.BLACK_OPAL_DEEPSLATE_ORE.get())
                 .add(ModBlocks.BLACK_OPAL_NETHER_ORE.get())
                 .add(ModBlocks.BLACK_OPAL_END_ORE.get())
-                .add(ModBlocks.MAGIC_BLOCK.get())
-                .add(ModBlocks.BLACK_OPAL_STAIRS.get())
-                .add(ModBlocks.BLACK_OPAL_SLAB.get());
+                .add(ModBlocks.MAGIC_BLOCK.get());
+
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.BLACK_OPAL_ORE.get())
