@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "modcourse:block/black_opal_slab"
+    },
+    "type=double": {
+      "model": "modcourse:block/black_opal_block"
+    },
+    "type=top": {
+      "model": "modcourse:block/black_opal_slab_top"
+    }
+  }
+}

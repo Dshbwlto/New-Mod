@@ -44,6 +44,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         this.add(ModBlocks.BLACK_OPAL_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.BLACK_OPAL_SLAB.get()));
 
+        dropSelf(ModBlocks.BLACK_OPAL_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.BLACK_OPAL_BUTTON.get());
+
 
     }
 
