@@ -1,2 +1,5 @@
-// 1.21.1	2025-03-19T16:40:01.286703	Tags for minecraft:item mod id modcourse
+// 1.21.1	2025-03-27T15:05:57.6765946	Tags for minecraft:item mod id modcourse
+275f42248a0308a7c3a0136186bcf145aa288c77 data/minecraft/tags/item/trimmable_armor.json
+786345f419a959ef2087e0133abcd061f82bf70f data/minecraft/tags/item/trim_materials.json
+553b6685b4a091706e182742d9e5c3ce3fbf0b5f data/minecraft/tags/item/trim_templates.json
 dd0b780886fe805c5e989ad5c61c9f68474bb242 data/modcourse/tags/item/transformable_items.json

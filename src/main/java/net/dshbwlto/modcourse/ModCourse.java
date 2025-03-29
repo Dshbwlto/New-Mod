@@ -1,6 +1,8 @@
 package net.dshbwlto.modcourse;
 
 import net.dshbwlto.modcourse.block.ModBlocks;
+import net.dshbwlto.modcourse.component.ModDataComponentTypes;
+import net.dshbwlto.modcourse.item.ModArmorMaterials;
 import net.dshbwlto.modcourse.item.ModCreativeModeTabs;
 import net.dshbwlto.modcourse.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -42,6 +44,10 @@ public class ModCourse {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponentTypes.register(modEventBus);
+
+        ModArmorMaterials.register(modEventBus);
 
 
         // Register ourselves for server and other game events we are interested in.

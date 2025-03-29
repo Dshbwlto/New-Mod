@@ -1,4 +1,7 @@
-// 1.21.1	2025-03-19T16:40:01.2837028	Tags for minecraft:block mod id modcourse
+// 1.21.1	2025-03-24T09:04:05.0366182	Tags for minecraft:block mod id modcourse
+85d2ce279e8e51b144ad8f00dfa1e6b3507e5fe6 data/minecraft/tags/block/fences.json
+e65185cc50e0595a41e8f1fc3d530ed80fbc03af data/minecraft/tags/block/fence_gates.json
 2512f70353d1d4682ecc4e6ca18db12100d04a6d data/minecraft/tags/block/mineable/pickaxe.json
 1ca375b3fa866ab0043a936617d592ec01909558 data/minecraft/tags/block/needs_diamond_tool.json
 8ee2e1d284d707d4845fba12d93dd197d4026199 data/minecraft/tags/block/needs_iron_tool.json
+deda01f1ef13cdaebcc707455247903de90c8d09 data/minecraft/tags/block/walls.json

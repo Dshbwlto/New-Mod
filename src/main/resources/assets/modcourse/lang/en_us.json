@@ -8,6 +8,22 @@
 
   "item.modcourse.frostfire_ice": "Frostfire Ice",
 
+  "item.modcourse.black_opal_sword": "Black Opal Sword",
+  "item.modcourse.black_opal_pickaxe": "Black Opal Pickaxe",
+  "item.modcourse.black_opal_shovel": "Black Opal Shovel",
+  "item.modcourse.black_opal_axe": "Black Opal Axe",
+  "item.modcourse.black_opal_hoe": "Black Opal Hoe",
+
+  "item.modcourse.black_opal_helmet": "Black Opal Helmet",
+  "item.modcourse.black_opal_chestplate": "Black Opal Chestplate",
+  "item.modcourse.black_opal_leggings": "Black Opal Leggings",
+  "item.modcourse.black_opal_boots": "Black Opal Boots",
+
+  "item.modcourse.black_opal_horse_armor": "Black Opal Horse Armor",
+  "item.modcourse.dshbwlto_armor_trim_smithing_template": "Black Opal Armor Trim",
+
+  "item.modcourse.black_opal_hammer": "Black Opal Hammer",
+
   "block.modcourse.black_opal_block": "Block of Black Opal",
   "block.modcourse.raw_black_opal_block": "Block of Raw Black Opal",
   "block.modcourse.black_opal_ore": "Black Opal Ore",
@@ -22,14 +38,25 @@
   "block.modcourse.black_opal_button": "Black Opal Button",
   "block.modcourse.black_opal_pressure_plate": "Black Opal Pressure Plate",
 
+  "block.modcourse.black_opal_fence": "Black Opal Fence",
+  "block.modcourse.black_opal_fence_gate": "Black Opal Fence Gate",
+  "block.modcourse.black_opal_wall": "Black Opal Wall",
+  "block.modcourse.black_opal_door": "Black Opal Door",
+  "block.modcourse.black_opal_trapdoor": "Black Opal Trapdoor",
+
+  "block.modcourse.black_opal_lamp": "Black Opal Lamp",
+
   "tooltip.modcourse.tomato.1": "If you eat these raw you're weird, just sayin.",
 
-  "tooltip.modcourse.chainsaw.tooltip.shift": "Press §7[SHIFT]§r for more information!",
+  "tooltip.modcourse.chainsaw.tooltip.shift": "Press §7[SHIFT]§r for more information",
   "tooltip.modcourse.chainsaw.tooltip.1": "Breaks logs instantly!",
   "tooltip.modcourse.chainsaw.tooltip.2": "§oChainsaw go vroom!§r",
 
   "tooltip.modcourse.magic_block.tooltip.1": "§cM§6A§eG§aI§9C§5A§dL§4 Meat Cube§r",
 
   "itemGroup.modcourse.black_opal_items_tab": "Black Opal Items",
-  "itemGroup.modcourse.black_opal_blocks_tab": "Black Opal Blocks"
+  "itemGroup.modcourse.black_opal_blocks_tab": "Black Opal Blocks",
+
+  "trim_pattern.modcourse.dshbwlto": "Black Opal Armor Trim",
+  "trim_material.modcourse.black_opal": "Black Opal Material"
 }
