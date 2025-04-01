@@ -41,6 +41,9 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.CHAINSAW);
 
+                        output.accept(ModItems.METAL_DETECTOR);
+                        output.accept(ModItems.DATA_TABLET);
+
                         output.accept(ModItems.TOMATO);
 
                         output.accept(ModItems.FROSTFIRE_ICE);

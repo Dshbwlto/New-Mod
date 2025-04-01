@@ -71,6 +71,11 @@ public class ModItems {
     public static final DeferredItem<Item> DSHBWLTO_SMITHING_TEMPLATE = ITEMS.register("dshbwlto_armor_trim_smithing_template",
             () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(ModCourse.MOD_ID, "dshbwlto")));
 
+    public static final DeferredItem<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+            () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+    public static final DeferredItem<Item> DATA_TABLET = ITEMS.register("data_tablet",
+            () -> new DataTabletItem(new Item.Properties().stacksTo(1)));
+
 
 
 

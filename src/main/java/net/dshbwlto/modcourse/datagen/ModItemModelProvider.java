@@ -48,6 +48,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.TOMATO.get());
         basicItem(ModItems.FROSTFIRE_ICE.get());
 
+        basicItem(ModItems.METAL_DETECTOR.get());
+        basicItem(ModItems.DATA_TABLET.get());
+
         trimmedArmorItem(ModItems.BLACK_OPAL_HELMET);
         trimmedArmorItem(ModItems.BLACK_OPAL_CHESTPLATE);
         trimmedArmorItem(ModItems.BLACK_OPAL_LEGGINGS);

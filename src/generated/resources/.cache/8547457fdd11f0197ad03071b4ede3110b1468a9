@@ -1,4 +1,4 @@
-// 1.21.1	2025-03-27T15:05:57.6775951	Item Models: modcourse
+// 1.21.1	2025-03-31T20:18:39.8804947	Item Models: modcourse
 e5e52b32f3ff656d0cbfb7412187d08c39141dd6 assets/modcourse/models/item/black_opal.json
 2a1fbafba3d40c826d797e5906451caaca314293 assets/modcourse/models/item/black_opal_axe.json
 297f0f4bec366f14db9280cf0fb0c576d9a2a554 assets/modcourse/models/item/black_opal_boots.json
@@ -56,7 +56,9 @@ fcfd6cb85e05ff5a76174682c26662f29417620b assets/modcourse/models/item/black_opal
 20d029d8be74fa24be48e40bf36ab5d78d815ebf assets/modcourse/models/item/black_opal_sword.json
 9c2b7f7416d4174f0afc9f896b7c77833b24045a assets/modcourse/models/item/black_opal_wall.json
 ffd4dabefc4ac4faa9d4f4c7d2948d4411f5f19f assets/modcourse/models/item/chainsaw.json
+101fe6f215b335f501d17acd725b72f22f8f430e assets/modcourse/models/item/data_tablet.json
 8297c53381319a1d4b7d4f3d34742681d0bd4822 assets/modcourse/models/item/dshbwlto_armor_trim_smithing_template.json
 814475f243f6b4bf0e144936652e0890428be43d assets/modcourse/models/item/frostfire_ice.json
+997b54a7a5e53e6bb816827331fdbb1157b8c8e5 assets/modcourse/models/item/metal_detector.json
 0804f53110709a84f2e409869ceac626d848abe8 assets/modcourse/models/item/raw_black_opal.json
 a8f989ce75c7bcedd6756aaa8164cb0a32554b17 assets/modcourse/models/item/tomato.json

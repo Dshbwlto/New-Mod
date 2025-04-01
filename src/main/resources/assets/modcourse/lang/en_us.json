@@ -8,6 +8,9 @@
 
   "item.modcourse.frostfire_ice": "Frostfire Ice",
 
+  "item.modcourse.metal_detector": "Metal Detector",
+  "item.modcourse.data_tablet": "Data Tablet",
+
   "item.modcourse.black_opal_sword": "Black Opal Sword",
   "item.modcourse.black_opal_pickaxe": "Black Opal Pickaxe",
   "item.modcourse.black_opal_shovel": "Black Opal Shovel",
@@ -23,6 +26,8 @@
   "item.modcourse.dshbwlto_armor_trim_smithing_template": "Black Opal Armor Trim",
 
   "item.modcourse.black_opal_hammer": "Black Opal Hammer",
+
+  "item.mccourse.metal_detector.no_valuables": "§4No Valuables Found!§r",
 
   "block.modcourse.black_opal_block": "Block of Black Opal",
   "block.modcourse.raw_black_opal_block": "Block of Raw Black Opal",
